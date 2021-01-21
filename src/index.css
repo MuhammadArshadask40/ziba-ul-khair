@@ -1,0 +1,414 @@
+#root {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-right: 38px;
+  width: auto;
+  font-size: 18px;
+  line-height: 24px;
+  z-index: 1;
+}
+.img-div {
+  height: 100px;
+}
+.logo {
+  width: 185px;
+  height: 81.64px;
+  margin-left: 380px;
+  margin-top: 19px;
+}
+
+.navbar-nav {
+  margin-left: 100px;
+}
+
+.nav-item {
+  margin-left: 15px;
+  font-size: 18px;
+  margin-top: 19px;
+}
+
+/* category */
+.cat-main {
+  margin-top: 74px;
+}
+
+.cat-div-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cat-div {
+  width: 375px;
+  height: 250px;
+  padding-right: 50px;
+}
+
+.feature-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.feature-img {
+  border-radius: 10px;
+  height: 56.8vh;
+  width: 100%;
+  border-bottom-right-radius: 0;
+}
+
+.feature-text {
+  width: 200px;
+  background-color: #960200;
+  height: 55px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.feature-text p {
+  text-align: center;
+  line-height: 57px;
+  color: white;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.image4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* About */
+.main-about {
+  margin-top: 240px;
+}
+
+.main-div {
+  height: 773px;
+}
+
+.about-txt-div {
+  width: 764px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 250px;
+}
+
+.about-img {
+  height: 100%;
+}
+
+.about-text {
+  font-size: 73px;
+  font-weight: bold;
+  color: #960200;
+}
+
+/* Available */
+.available-main {
+  display: flex;
+  margin-top: 152px;
+}
+
+.text-div {
+  margin-left: 250px;
+}
+
+.text-div h2 {
+  padding-top: 63px;
+  font-size: 41px;
+  color: #960200;
+}
+
+.logo-div {
+  padding-left: 120px;
+}
+
+/* media Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .logo {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .about-txt-div {
+    width: 450px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 60px;
+    padding-right: 50px;
+  }
+
+  .about-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #960200;
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .about-text-p {
+    font-size: 16px !important;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .logo-div {
+    padding-left: 10px;
+  }
+
+  .text-div {
+    margin-left: 30px;
+  }
+
+  .available-img {
+    margin-left: 110px !important;
+  }
+
+  .available-img1 {
+    margin-left: 5px;
+    width: 250px;
+    position: relative;
+  }
+
+  .available-image {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+  }
+
+  .text-div h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 40px;
+    color: #960200;
+    width: 400px;
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* body {
+    background-color: blue;
+  } */
+
+  .logo {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  .about-txt-div {
+    width: 500px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 60px;
+    padding-right: 50px;
+  }
+
+  .about-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: #960200;
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .about-text-p {
+    font-size: 20px !important;
+    margin-top: 20px;
+    width: 460px;
+  }
+
+  .text-div {
+    margin-left: 50px;
+  }
+
+  .available-img {
+    margin-left: 120px !important;
+  }
+
+  .available-img1 {
+    margin-left: 5px;
+    width: 250px;
+    position: relative
+  }
+
+  .available-image {
+    width: 250px;
+    height: 200px;
+  }
+
+  .text-div h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 40px;
+    color: #960200;
+    width: 400px;
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* body {
+    background-color: green;
+  } */
+
+  .logo {
+    /* width: 185px; */
+    /* height: 81.64px; */
+    margin-left: 170px;
+    margin-top: 10px;
+  }
+
+  .main-div {
+    height: 773px;
+  }
+
+  .about-txt-div {
+    width: 700px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 100px;
+    padding-right: 50px;
+  }
+
+  .about-img {
+    height: 100%;
+  }
+
+  .about-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #960200;
+    width: 300px;
+  }
+
+  .text-div {
+    margin-left: 140px;
+  }
+
+  .available-img {
+    margin-left: 210px !important;
+  }
+
+  .available-img1 {
+    margin-left: 5px;
+    width: 250px;
+  }
+
+  .available-image {
+    width: 250px;
+    height: 200px;
+  }
+
+  .text-div h2 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 40px;
+    color: #960200;
+    width: 400px;
+
+  }
+
+  .info-div {
+    padding-left: 50px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* body {
+    background-color: yellow;
+  } */
+
+  .logo {
+    margin-left: 200px;
+    margin-top: 19px;
+  }
+
+  .text-div {
+    margin-left: 30px;
+    width: 400px;
+  }
+
+  .logo-div {
+    padding-left: 50px;
+  }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* body {
+    background-color: black;
+  } */
+
+  .text-div h2 {
+    padding-top: 69px;
+    font-size: 41px;
+    color: #960200;
+  }
+
+  .main-div {
+    height: 773px;
+  }
+
+  .about-txt-div {
+    width: 764px;
+    height: 400px;
+    margin-left: 100px;
+  }
+
+  .about-text-p {
+    width: 764px;
+    height: 300px;
+  }
+
+  .about-img {
+    height: 100%;
+  }
+
+  .about-text {
+    font-size: 73px;
+    font-weight: bold;
+    color: #960200;
+    width: 400px;
+  }
+  .logo-div {
+    padding-left: 70px;
+  }
+}
